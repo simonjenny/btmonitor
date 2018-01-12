@@ -1,0 +1,19 @@
+{
+  "name": "btmonitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console-stamp": "^0.2.6",
+    "minimist": "^1.2.0",
+    "noble": "https://github.com/PolideaInternal/noble.git#macos_highsierra"
+  },
+  "bin": {
+    "btmonitor": "app.js"
+  }
+}
